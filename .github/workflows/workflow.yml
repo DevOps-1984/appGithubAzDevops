@@ -17,6 +17,6 @@ jobs:
           uses: Azure/pipeline@v2
           with:
             azure-devops-project-url: https://dev.azure.com/az-devops-joel/AgileProject
-            azure-pipeline-name: 'DevOps-1984.appGithubAzDevops
+            azure-pipeline-name: 'DevOps-1984.appGithubAzDevops'
             repository: https://dev.azure.com/az-devops-joel/AgileProject/_git/webApplication
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
