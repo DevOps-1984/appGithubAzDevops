@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appGithubAzureDevops", "appGithubAzureDevops\appGithubAzureDevops.csproj", "{D387DF1B-5AE1-4024-BDBD-CD98CF253453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D387DF1B-5AE1-4024-BDBD-CD98CF253453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D387DF1B-5AE1-4024-BDBD-CD98CF253453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D387DF1B-5AE1-4024-BDBD-CD98CF253453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D387DF1B-5AE1-4024-BDBD-CD98CF253453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {232D5BA1-226D-4241-BC5B-E641369F1CF0}
+	EndGlobalSection
+EndGlobal
