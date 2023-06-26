@@ -4,19 +4,18 @@ on:
   push:
     branches:
       - main
-    pull-request:
+    pull_request:
       branches:
         - main
 
 jobs:
     build:
-        name: Azure PIpeline
+        name: Azure Pipeline
         runs-on: ubuntu-latest
         steps:
-        - name: Azure Pipeline Action
-          uses: Azure/pipeline@v2
+        - name: Azure Pipelines Action
+          uses: Azure/pipelines@v2
           with:
             azure-devops-project-url: https://dev.azure.com/az-devops-joel/AgileProject
             azure-pipeline-name: 'DevOps-1984.appGithubAzDevops'
-            repository: https://dev.azure.com/az-devops-joel/AgileProject/_git/webApplication
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
